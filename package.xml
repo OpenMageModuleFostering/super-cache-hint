@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+    <name>super-cache-hint</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Super Cache Hint allows you to identify blocks within cache, find out where they are used and how long.</summary>
+    <description>Super Cache Hint is a free extension tha allows you to identify blocks within cache, find out where they are used and how long.&#xD;
+&#xD;
+Features:&#xD;
+- Highlights block types.&#xD;
+- Displays cache memory status and lifetime.&#xD;
+- Doesn't need Magento core alterations.&#xD;
+- Extends Magento functionalities.&#xD;
+&#xD;
+Super Cache Hint is a Esse Solutions (http://www.essesolutions.it) extension.</description>
+    <notes>Initial release.</notes>
+    <authors><author><name>ESSE SOLUTIONS srl</name><user>esse_solutions</user><email>magento@essesolutions.it</email></author></authors>
+    <date>2013-11-21</date>
+    <time>14:00:55</time>
+    <contents><target name="magecommunity"><dir name="Essesolutions"><dir name="Supercachehint"><dir name="Helper"><file name="Data.php" hash="29ba6657328794fad1cd3778f7ac2d23"/><file name="Data.php" hash="29ba6657328794fad1cd3778f7ac2d23"/><file name="Data.php" hash="29ba6657328794fad1cd3778f7ac2d23"/><file name="Data.php" hash="29ba6657328794fad1cd3778f7ac2d23"/></dir><dir name="Model"><file name="Observer.php" hash="e18cf755ce36fbf0b8e269fd85153706"/><file name="Observer.php" hash="e18cf755ce36fbf0b8e269fd85153706"/><file name="Observer.php" hash="e18cf755ce36fbf0b8e269fd85153706"/><file name="Observer.php" hash="e18cf755ce36fbf0b8e269fd85153706"/></dir><dir name="etc"><file name="config.xml" hash="e7c2797ab2e2fe2d077f0f49a7e80538"/><file name="system.xml" hash="ba73637dd1e7a7525703c968f76fb5d5"/><file name="config.xml" hash="e7c2797ab2e2fe2d077f0f49a7e80538"/><file name="system.xml" hash="ba73637dd1e7a7525703c968f76fb5d5"/><file name="config.xml" hash="e7c2797ab2e2fe2d077f0f49a7e80538"/><file name="system.xml" hash="ba73637dd1e7a7525703c968f76fb5d5"/><file name="config.xml" hash="e7c2797ab2e2fe2d077f0f49a7e80538"/><file name="system.xml" hash="ba73637dd1e7a7525703c968f76fb5d5"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Essesolutions_Supercachehint.xml" hash="ccc899d4d4bcf531a528f2b1a53d5116"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.5.0.0</min><max>1.8</max></package></required></dependencies>
+</package>

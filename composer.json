@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/super-cache-hint",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Super Cache Hint allows you to identify blocks within cache, find out where they are used and how long.",
+    "authors": [
+    {
+        "name": "ESSE SOLUTIONS srl",
+        "email": "magento@essesolutions.it"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
